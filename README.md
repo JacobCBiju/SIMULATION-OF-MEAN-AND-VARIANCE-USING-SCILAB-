@@ -35,8 +35,11 @@ __PROCEDURE:__
 6.Verify the generated results
 
 __PROGRAM:__
+<img width="729" height="879" alt="image" src="https://github.com/user-attachments/assets/8a84ca1e-abbd-4bc5-81d8-d424dd943701" />
+<img width="509" height="173" alt="image" src="https://github.com/user-attachments/assets/46dc84a5-cb91-4c72-9d3b-d61d9db203b4" />
 
 __OUTPUT GRAPH:__
+<img width="758" height="718" alt="image" src="https://github.com/user-attachments/assets/04c6996f-3c2c-4c54-917a-890b5725c647" />
 
 __RESULT:__
-
+Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
