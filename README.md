@@ -34,9 +34,83 @@ __PROCEDURE:__
   
 6.Verify the generated results
 
+
 __PROGRAM:__
+
+clear;
+
+clc;
+
+clear;
+
+z=3*(1-x)^2
+
+endfunction a=0;
+
+b=1;
+
+EX=intg(a,b,f);
+
+z=3*(1-y)^2
+
+endfunction
+
+EY=intg(a,b,c);
+
+disp(EX,"i)Mean of X =")
+
+disp(EY," Mean of Y =")
+
+Variance
+
+function X=g(x),
+
+z=3*(1-x)^2,
+
+endfunction a=0;
+
+b=1;
+
+EX2=intg(a,b,g)
+
+z=3*(1-y)^2
+
+endfunction
+
+ EY2=intg(a,b,h);
+
+vX2=EX2-(EX)^2;
+
+ vY2=EY2-(EY)^2;
+
+disp(vX2,"ii)Variance of X");
+
+disp(vY2," Variance of Y");
+
+
+
+Cross Correlation
+
+
+
+x= input("type in the reference sequence=");
+
+y= input("type in the second sequence=");
+
+n1=max(size(y))-1;
+
+n2=max(size(x))-1;
+
+r=corr(x,y,n1);
+
+plot2d3('gnn',r);
+
 
 __OUTPUT GRAPH:__
 
+
+![WhatsApp Image 2025-11-15 at 09 01 20_63e04507](https://github.com/user-attachments/assets/51030333-6aa5-432a-8b92-a8d0a8c32099)
+
 __RESULT:__
 
+Thus the mean , variance and cross correlation are executed in Scilab and output is verified
